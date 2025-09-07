@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(44, 33, 88);
+
+
+}
+
+.main-div {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+}
+
+/* Navbar css */
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    height: 60px;
+    width: 100vw;
+}
+
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.navbar a:visited {
+    text-decoration: none;
+    color: white;   
+
+}
+
+.navbar a:hover {
+    color: rgb(255, 0, 0);
+
+
+}
+
+.links a {
+    font-weight: bold;
+
+}
+
+
+.links button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    transition: all 0.2s ease;
+}
+.links button:hover{
+    transform:translateY(-2px);
+    
+}
+
+hr {
+    width: 100vw;
+}
+
+/* Navbar css */
+
+
+/* Hero css */
+
+.hero-section {
+    display: flex;
+    /* margin: 3rem; */
+    flex-direction: row;
+    padding: 3rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+
+.profile-photo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0px -5px 19px -8px rgba(211, 211, 211, 0.8);
+}
+
+/* Hero css */
+
+
+/* About css */
+.about-section {
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+.about-content {
+    padding: 1rem 0rem 1rem;
+    line-height: 1.2rem;
+    height: auto;
+    width: auto;
+
+}
+
+/* About css */
+
+/* project-section */
+
+.project-section {
+    border: none;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 1rem;
+    margin-bottom: 20vh;
+}
+.project-content{
+    padding: 1rem;
+}
+.project-content p{
+    font-weight: 100;
+    color: lightgrey;
+}
+.project-card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    /* padding: 1rem; */
+    transition: all 0.2s ease-in-out;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-photo img {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 0.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+/* Project css */
+
+
+/* Skills css */
+.skill-section {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    height: 150px;
+    margin: 1rem;
+    margin-bottom: 30vh;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 1rem;
+
+    
+}
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 35%;
+    background-color: rgb(20, 15, 41);
+    transition: all 0.2s ease;
+
+}
+
+.skill-card:hover{
+    transform: scale(1.1);
+}
+.skill-card h2 {
+    background-color: rgb(20, 15, 41);
+}
+
+.skill-card i {
+    background-color: rgb(20, 15, 41);
+}
+
+/* Skills css */
+
+
+/* Footer css */
+.footer-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+
+    color: grey;
+     
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 15rem;
+
+}
+
+
+.social-handles {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+.footer-content a:link{
+    color: grey;
+    text-decoration: none;
+}
+.footer-content a:visited{
+    color: grey;
+    text-decoration: none;
+}
+.footer-content a:hover{
+    color: red;
+}
+.social-handles a:link{
+    color: grey;
+    text-decoration: none;
+}
+.social-handles a:visited{
+    color: grey;
+    text-decoration: none;
+}
+.social-handles a:hover {
+    color: rgb(255, 0, 0);
+
+
+}
+
+.rights{
+    display: flex;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+
+/* Footer css *
+
+/* About page css */
+.about-page-section{
+    padding: 1rem;
+    
+}
+
+.header-section img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+.header-section h1{
+    padding: 1rem;
+}
+
+.header-section h4{
+    font-weight: 100;
+    
+}
+.header-section p{
+    padding: 2rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.about-page-skill-section{
+    margin:3rem;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.about-page-skill-card{
+    border: 1px solid white;
+    /* height: 10vh; */
+    width: 15vw;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    
+    
+}
+
+.about-page-experience-section{
+    margin: 3rem;
+    
+
+}
+.about-page-experience-section h3{
+    margin-top: 1rem;
+    
+}
+.about-page-experience-section p{
+    font-weight: 100;
+    margin-left: 1.5rem;
+}
+
+.about-page-education-section{
+    padding: 3rem;
+}
+
+
+.about-page-education-section h4{
+    margin-left: 1.5rem;
+    font-weight: 100;
+}
+/* About page css */
+
+
+
+/* Project page css */
+
+.header{
+    padding: 3rem;
+
+}
+
+.header h3{
+    font-weight: 400;
+}
+.project-page-content{
+    display: flex;
+    padding: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+    margin-bottom: 1rem;
+
+}
+.project-page-card{
+    width: 30%;
+    transition: 0.2s ease;
+   
+}
+.project-page-card:hover{
+    transform: scale(1.1);
+    
+}
+.project-page-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.project-page-card p{
+    font-weight: 100;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/* Project page css */
+
+
+
+/* Skill page css */
+.skill-page{
+    padding: 3rem;
+}
+
+.skill-page-header{
+    margin-bottom: 2rem;
+}
+
+.skill-page-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+    height: auto;
+    
+}
+.skill-page-card{
+    width: 25%;
+    padding: 0.5rem;
+    margin-bottom: 9rem;
+}
+.skill-page-card h1{
+    margin-bottom: 1rem;
+}
+
+.skill-page-card p{
+    font-weight: 100;
+}
+/* Skill page css */
+
+
+/* Contact page css */
+.contact-page{
+    padding: 3rem;
+}
+.contact-page-header{
+    margin-bottom: 2rem;
+
+}
+.contact-page-form input{
+    width: 25%;
+    height: 2rem;
+    background-color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+
+}
+.contact-page-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-page-form button{
+    width: 10%;
+    height: 3rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+
+}
+
+.personal-info h3{
+    font-weight: 300;
+}
+/* Contact page css */
