@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://prashant0044.github.io/Portfolio-Website",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
